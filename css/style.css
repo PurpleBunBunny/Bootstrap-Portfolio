@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/bananas.png");
+    display: block;
+    margin: 40px 100px 40px 100px;
+}
+
+header {
+    background-color: rgb(142, 200, 219);
+    border: 10px;
+    border-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75px; 
+    padding-top: 10px;
+}
+
+nav {
+    background-color: lightseagreen;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.content1 {
+    background-color: rgb(142, 200, 219);
+    margin: 50px;
+    padding: 10px 20px 20px 20px;
+}
+
+h2 {
+    color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.text-image {
+    float: left;
+    padding-right: 20px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+footer {
+    background-color: rgb(142, 200, 219);
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    height: 65px;
+    /* margin: 50px 100px; */
+    position: bottom;
+}
+
+.margin {
+    background-color: lightseagreen;
+    color:lightseagreen;
+    margin: 0px 0px 0px 0px;
+    position: overlay; 
+    width: 100%;
+}
+
+.copyright {
+    padding-top: 20px;
+    text-align: center;
+}
